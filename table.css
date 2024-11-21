@@ -1,0 +1,72 @@
+.body{ margin:20px;
+   background: color #f9f9f9;}
+
+.table {
+  
+    border-collapse:collapse;
+    
+    width: 100%;
+    
+    background-color:#fff;
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.1) ;
+    margin: 0px; auto;
+    table-layout: auto;
+}
+  td,
+  th {
+
+    border-bottom: 1px solid #ddd ;
+    text-align:left;
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+  th {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background-color:#f4f4f4 ;
+    font: size 13px; ;
+    color: grey;
+    
+  }
+  td {
+    color: #333;
+  }
+  td:nth-child(4), td:nth-child(5),
+  td:nth-child(6) {
+    text-align: center;
+  }
+  td:first-child, th:first-child {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .number{text-align: center;}
+  .numbertext{ color: aqua;}
+  .namefont{font-weight: bold;}
+  .text{color:#66CA86 ;}
+  .badge {background-color:#FCF2D9 ;
+    color:#C19830 ;
+    padding:4px 8px;
+    text-align: center;
+    border-radius: 13px;
+ }
+ .badge1 { background-color:#DCF5E3  ;
+    color:#229E50;
+    padding:4px 8px;
+    text-align: center;
+    border-radius: 13px;
+
+ }
+ .badge2 { background-color:#EBEDEF  ;
+    color:#787F8C;
+    padding:4px 8px;
+    text-align: center;
+    border-radius: 13px;
+     tabel,th,td{
+      border:none
+     }
+     thead th {
+      border-bottom:2px solid #ddd;
+     }
+
+ }
